@@ -1,0 +1,18 @@
+<div
+    class="md:w-48 bg-white rounded-lg border hover:shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 mb-4">
+    <a href="#" class="flex items-center justify-center">
+        <img class="p-8 w-48 h-96 md:h-auto md:w-48" src='{{"assets/images/" + book.img + ".jpg"}}'
+            alt="product image" />
+    </a>
+    <div class="px-5 pb-5">
+        <span
+            class="bg-blue-100 text-blue-800 text-xs font-semibold px-1.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">{{book.category}}</span>
+        <a href="#" class="flex items-center">
+            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{{book.name}}</h5>
+        </a>
+        <h5 class="text-sm font-normal text-gray-900 dark:text-white">{{book.author}}</h5>
+        <div class="flex justify-between items-center mt-2">
+            <span class="text-2xl font-bold text-gray-900 dark:text-white">{{book.price | currency:"BRL"}}</span>
+        </div>
+    </div>
+</div>

@@ -13,7 +13,7 @@ O desafio de Código realizado no bootcamp Digital Innovation One, consiste em c
 
 #### Adicional
 - [x] Adicionar estilização com FlowBite;
-- [x] Adicionar barra de pesquisar;
+- [x] Pesquisar por livro;
 - [ ] Filtrar por preço.
 
 ## Tecnologia usadas
